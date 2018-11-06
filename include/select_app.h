@@ -4,8 +4,14 @@
 #define APP_WAIT 1
 #define APP_IDLELOOP 2
 #define APP_CALLBACK 3
+#define APP_DEEP_SLEEP_LOCK 4
+#define APP_POWER_MANAGEMENT 5
+#define APP_CRITICAL_SECTION_LOCK 6
+#define APP_TIME 7
+#define APP_DEBUG 8
+#define APP_MEMORY_TRACING 9
 
-#define APP APP_CALLBACK
+#define APP APP_MEMORY_TRACING
 
 #endif
 
