@@ -1,12 +1,10 @@
-#ifndef SELECT_APP_H
+#ifndef _SELECT_APP_H_
+#define _SELECT_APP_H_
 
-#define SELECT_APP_H
+#define APP_WAIT 1
+#define APP_IDLELOOP 2
 
-enum Apps {
-    APP_WAIT = 1,
-};
-
-#define APP APP_WAIT
+#define APP APP_IDLELOOP
 
 #endif
 
