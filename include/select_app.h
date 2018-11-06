@@ -10,8 +10,9 @@
 #define APP_TIME 7
 #define APP_DEBUG 8
 #define APP_MEMORY_TRACING 9
+#define APP_ERROR_HANDLING 10
 
-#define APP APP_MEMORY_TRACING
+#define APP APP_ERROR_HANDLING
 
 #endif
 
